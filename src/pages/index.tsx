@@ -38,7 +38,7 @@ export default function Home() {
             if (it.type === 'shape') {
               return <Shape key={i} 
                             time={top}
-                            config={it} />
+                            config={it as any} />
             }
           })
         }
