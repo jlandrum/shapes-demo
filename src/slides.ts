@@ -9,10 +9,12 @@ const slides = [
       {
         range: [0,1],
         from: {
-          position: [0.0, 0.0]
+          position: [0.0, 0.0],
+          scale: 0.5,
         },
         to: {
-          position: [1, 1]
+          position: [1, 1],
+          scale: 1
         }
       },      
       {
@@ -64,11 +66,13 @@ const slides = [
         range: [0,5],
         from: {
           position: [0.4,0.6],
-          rotation: [0]
+          rotation: [0],
+          scale: 0.1,
         },
         to: {
           position: [0.6,0.4],
-          rotation: [360]
+          rotation: [360],
+          scale: 1.5,
         }
       }
     ]
